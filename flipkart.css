@@ -1,0 +1,324 @@
+body{
+    height:100%;
+    width:100%;
+    }
+    .main{
+    background-color: #F1F2F4;
+    }
+    .header
+    {  
+    background-color:white;
+    height:60px;
+    width:100%;
+    margin:0;
+    padding :0;
+    position: absolute;
+    position: fixed;
+    z-index: 1000;
+    left:0px;
+    top:0px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    /**gap:80px;**/
+    }
+    .logo
+    {
+    order:0;
+    margin-top:8px;
+    justify-content: center;
+    margin-bottom: 3px;
+    width:170px;
+    height:50px;
+    display:flex;
+    }
+    .search
+    {
+    height:40px;
+    width:600px;
+    display:flex;
+    margin-top:8px;
+    justify-content: flex-start;
+    margin-bottom: 3px;
+    border-radius:5px;
+    background-color: #F0F5FF;
+    }
+    .account
+    {
+    width:133px;
+    height:40px;
+    display:flex;
+    margin-top:10px;
+    justify-content: center;
+    margin-bottom: 3px;
+    font-weight:600;
+    gap:10px;
+    }
+    .cart
+    {
+    width:105px;
+    height:27px;
+    display:flex;
+    margin-top:12px;
+    justify-content: center;
+    margin-bottom: 3px;
+    font-weight:600;
+    gap:10px;
+    }
+    .becomeaseller
+    {
+    width:199px;
+    height:24;
+    display:flex;
+    margin-top:10px;
+    justify-content: center;
+    margin-bottom: 3px;
+    font-weight:600;
+    gap:10px;
+    }
+    .items
+    {
+    background-color:white;
+    height:126px;
+    width:1504px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position:relative;
+    top:70px;
+    left:15px;
+    }
+    .items div
+    {
+    height:90px;
+    width:150px;
+    background-color: #FFFFFF;
+    }
+    .list 
+    {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+    .listname
+    {
+    font-weight: 400;
+    }
+    .carousel
+    {
+    position: relative;
+    top:100px;
+    left:15px;
+    }
+    .undermain
+    {
+    position: relative;
+    top:120px;
+    border:3px solid red;
+    height:300px;
+    width:3000px;
+    }
+    #under_300
+    {
+    position: relative;
+    top:120px; 
+    }
+    .container_1
+    {
+    background-color:white;
+    position: relative;
+    display:flex;
+    gap:10px;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;  
+    left:15px;
+    flex-grow:1;
+    }
+    .col{
+    height:320px;
+    width:268px;
+    border:3px solid #F1F2F4;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .colhead
+    {
+    height:40px;
+    width:100%;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left:15px;
+    font-size:x-large;
+    }
+    .image img
+    {
+    order:1;
+    width:250px;
+    padding-top:50px;
+    margin:5px;
+    }
+    .info
+    {
+    padding-top: 20px;
+    font-weight: 500;
+    }
+    .cost
+    {
+    font-weight: 500;
+    }
+    /** Best of Festival **/
+    .poster
+    {
+    position:relative;
+    top:150px;
+    display:flex;
+    flex-wrap:wrap;
+    left:15px;
+    right:15px;
+    background-color:#F1F2F4;
+    flex-shrink:0;
+    width:1510px;
+    height:670px;      
+    }
+    .p
+    {
+    width:400px;
+    order:1;
+    flex-grow:1;
+    }
+    .p img{
+    width:497px; 
+    }
+    .phead
+    {
+    order:0;
+    }
+    .poster2
+    {
+    position: relative;
+    top:160px;
+    left:15px;
+    right:15px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:5px;
+    }
+    .p1 img{
+    width:497px; 
+    }
+    #product
+    {
+    position:relative;
+    top:165px;
+    left:15px;
+    right:15px;
+    height:680px;
+    width:100%;
+    }
+    .product
+    {
+    display:flex;
+    flex-wrap: wrap;
+    gap:20px;
+    }
+    .footer
+    {
+    height:450px;
+    width:100%;
+    position :relative;
+    top:170px;
+    background-color: #212121;
+    display:flex;
+    flex-wrap:wrap;
+    padding-left:100px;
+    justify-content: flex-start;
+    padding-top:30px;
+    gap:50px;
+    }
+    .footer a
+    {
+    text-decoration: none; 
+    color:white;   
+    }
+    .footer li{
+    list-style-type: none;
+    }
+    .about
+    {
+    display:flex;
+    flex-direction:column;
+    width:170px;
+    height:300px;
+    justify-content: flex-start;
+    padding-top:30px;
+    font-size: 13px;
+    font-weight: 500;
+    }
+    .group{
+    display:flex;
+    flex-direction:column;
+    width:170px;
+    height:300px;
+    justify-content: flex-start;
+    padding-top:30px;
+    font-size: 13px;
+    font-weight: 500;
+    }
+    .help
+    {
+    display:flex;
+    flex-direction:column;
+    width:170px;
+    height:300px;
+    justify-content: flex-start;
+    padding-top:30px; 
+    font-size: 13px;
+    font-weight: 500;
+    }
+    .policy
+    {
+    display:flex;
+    flex-direction:column;
+    width:180px;
+    height:300px;
+    justify-content: flex-start;
+    padding-top:30px;
+    font-size: 13px;
+    font-weight: 500;
+    }
+    .mailus
+    {
+    display:flex;
+    flex-direction:column;
+    border-left:0.1px solid #F1F2F4 ;
+    width:210px;
+    height:300px;
+    justify-content: flex-start;
+    padding-top:30px;
+    color:white;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left:10px;
+    }
+    .address
+    {
+    display:flex;
+    flex-direction:column;
+    width:250px;
+    height:300px;
+    justify-content: flex-start;
+    padding-top:30px;
+    color:white;
+    font-size: 13px;
+    font-weight:500;
+    }
+    .head
+    {
+    color: #767C81;
+    font-size: 13px;
+    font-weight:500;
+    }
