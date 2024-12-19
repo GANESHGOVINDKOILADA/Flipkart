@@ -5,6 +5,7 @@ body{
     .main{
     background-color: #F1F2F4;
     }
+    /*NAV BAR */
     .header
     {  
     background-color:white;
@@ -76,6 +77,8 @@ body{
     font-weight:600;
     gap:10px;
     }
+
+    /* ITEMS */
     .items
     {
     background-color:white;
@@ -106,12 +109,17 @@ body{
     {
     font-weight: 400;
     }
+
+    /* CAROUSEL */
     .carousel
     {
     position: relative;
     top:100px;
     left:15px;
     }
+
+    /*UNDER 300 */ 
+    
     .undermain
     {
     position: relative;
@@ -197,6 +205,7 @@ body{
     {
     order:0;
     }
+     /*POSTER 2*/
     .poster2
     {
     position: relative;
@@ -210,6 +219,9 @@ body{
     .p1 img{
     width:497px; 
     }
+
+
+    /* PRODUCT */
     #product
     {
     position:relative;
@@ -225,6 +237,9 @@ body{
     flex-wrap: wrap;
     gap:20px;
     }
+
+
+    /* FOOTER  */
     .footer
     {
     height:450px;
